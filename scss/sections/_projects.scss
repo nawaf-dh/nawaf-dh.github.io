@@ -1,0 +1,23 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.projects {
+
+    @include gradient;
+    
+}
+
+.card {
+    margin: 5px;
+    width: 80%;
+    margin: 0 auto;
+
+    img {
+        border: 1px solid black;
+        border-radius: 5px;
+        height: 200px;
+        background-color: black;
+        margin: 0 auto;
+    }
+}
